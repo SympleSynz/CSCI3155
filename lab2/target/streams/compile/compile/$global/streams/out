@@ -1,0 +1,36 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/src/main/scala/Lab2.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/src/main/scala/Lab2.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/src/main/scala/Lab2.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/user/Dropbox/CSCI3155/Homework/lab2/lab2/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 696bba80, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/target/scala-2.10/classes:/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/lib/liblab2.jar:/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/lib/scalatest_2.10-2.0.jar[0m
+[0m[[33mwarn[0m] [0m/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/src/main/scala/Lab2.scala:99: match may not be exhaustive.[0m
+[0m[[33mwarn[0m] [0mIt would fail on the following inputs: (Binary(_, _, _), If(_, _, _)), (Binary(_, _, _), Print(_)), (Binary(_, _, _), Unary(_, _)), (Binary(_, _, _), Var(_)), (ConstDecl(_, _, _), B(_)), (ConstDecl(_, _, _), Binary(_, _, _)), (ConstDecl(_, _, _), ConstDecl(_, _, _)), (ConstDecl(_, _, _), If(_, _, _)), (ConstDecl(_, _, _), Print(_)), (ConstDecl(_, _, _), Unary(_, _)), (ConstDecl(_, _, _), Undefined), (ConstDecl(_, _, _), Var(_)), (Expr(), B(_)), (Expr(), Binary(_, _, _)), (Expr(), ConstDecl(_, _, _)), (Expr(), If(_, _, _)), (Expr(), Print(_)), (Expr(), Unary(_, _)), (Expr(), Undefined), (Expr(), Var(_)), (If(_, _, _), If(_, _, _)), (If(_, _, _), Print(_)), (If(_, _, _), Unary(_, _)), (Print(_), ConstDecl(_, _, _)), (Print(_), Expr()), (Print(_), If(_, _, _)), (Print(_), N(_)), (Print(_), Print(_)), (Unary(_, _), B(_)), (Unary(_, _), Binary(_, _, _)), (Unary(_, _), ConstDecl(_, _, _)), (Unary(_, _), If(_, _, _)), (Unary(_, _), N(_)), (Unary(_, _), Print(_)), (Unary(_, _), Unary(_, _)), (Unary(_, _), Undefined), (Unary(_, _), Var(_)), (Undefined, If(_, _, _)), (Undefined, Print(_)), (Undefined, Unary(_, _)), (Var(_), Binary(_, _, _)), (Var(_), ConstDecl(_, _, _)), (Var(_), If(_, _, _)), (Var(_), Print(_)), (Var(_), Unary(_, _)), (Var(_), Undefined)[0m
+[0m[[33mwarn[0m] [0m        (eToVal(e1),eToVal(e2)) match {[0m
+[0m[[33mwarn[0m] [0m        ^[0m
+[0m[[33mwarn[0m] [0mone warning found[0m
+[0m[[0mdebug[0m] [0mScala compilation took 54.159583005 s[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

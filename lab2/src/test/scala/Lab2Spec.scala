@@ -7,10 +7,18 @@ class AndOrSpec extends FlatSpec {
   "And" should "return true only if both expressions are true" in {
     val t = B(true)
     val f = B(false)
+    val s = S("hello")
+    val g = S("boo")
     assert(eval(Binary(And,t,t)) === t)
     assert(eval(Binary(And,t,f)) === f)
     assert(eval(Binary(And,f,t)) === f)
     assert(eval(Binary(And,f,f)) === f)
+    assert(eval(Binary(And,s,t)) === t)
+    assert(eval(Binary(And,s,f)) === f)
+    assert(eval(Binary(And,t,s)) === t)
+    assert(eval(Binary(And,f,s)) === f)
+    assert(eval(Binary(And,s,g)) === t)
+    assert(eval(Binary(And,g,s)) === t)
   } 
  
   "And" should "return non-intuitive results from differing types" in {
@@ -44,7 +52,11 @@ class ArithmeticSpec extends FlatSpec {
     val e1 = N(1)
     val e2 = N(2)
     val e3 = eval(Binary(Plus, e1, e2))
+    val e4 = S(2 + "abc")
+    val e5 = N(5 + 6)
+    val e6 = eval(Binary(Plus,e4,e5))
     assert(e3 === N(3))
+    //assert(e6 === S("2abc11"))
   }
 
   "Minus" should "subtract two number values and return a number" in {

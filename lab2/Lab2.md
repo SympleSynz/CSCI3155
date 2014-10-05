@@ -15,8 +15,8 @@ A ∈ AObjects meaning Syntactic object A is in the set AObjects.
 <br>V ∈ VObjects meaning Syntactic object V is in the set VObjects.
 
 							 
-	1)	---------------------------
-		a ∈ VObjects   b ∈ VObjects
+	1)	-------------		-------------
+		a ∈ VObjects   		b ∈ VObjects
 
 		s1 ∈ AObjects     s2 ∈ AObjects		s ∈ VObjects
 	2)  -------------------------------		------------
