@@ -1,0 +1,9 @@
+[0m[[0minfo[0m] [0m[32mLab4Spec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcompressRec/compressFold[0m[0m
+[0m[[0minfo[0m] [0m[32m- should compress List(1, 2, 2, 3, 3, 3)[0m[0m
+[0m[[0minfo[0m] [0m[32mmapFirst[0m[0m
+[0m[[0minfo[0m] [0m[32m- should map the first element where f returns Some[0m[0m
+[0m[[0minfo[0m] [0m[32mfoldLeft[0m[0m
+[0m[[0minfo[0m] [0m[32m- should enable implementing treeFromList and sum[0m[0m
+[0m[[0minfo[0m] [0m[32mstrictlyOrdered[0m[0m
+[0m[[0minfo[0m] [0m[32m- should check strict ordering of a binary search tree[0m[0m

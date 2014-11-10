@@ -1,0 +1,45 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala)[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala)[0m
+[0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 53bde71d, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes:/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/liblab4.jar:/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/scalatest_2.10-2.0.jar[0m
+[0m[[31merror[0m] [0m/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala:186: constructor cannot be instantiated to expected type;[0m
+[0m[[31merror[0m] [0m found   : (T1, T2)[0m
+[0m[[31merror[0m] [0m required: List[(String, jsy.lab4.ast.Typ)][0m
+[0m[[31merror[0m] [0m              case (string, ty) => if (ty != typ(args)) err(typ(args), e1)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala:186: not found: value ty[0m
+[0m[[31merror[0m] [0m              case (string, ty) => if (ty != typ(args)) err(typ(args), e1)[0m
+[0m[[31merror[0m] [0m                                       ^[0m
+[0m[[31merror[0m] [0m/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala:186: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : List[jsy.lab4.ast.Expr][0m
+[0m[[31merror[0m] [0m required: jsy.lab4.ast.Expr[0m
+[0m[[31merror[0m] [0m              case (string, ty) => if (ty != typ(args)) err(typ(args), e1)[0m
+[0m[[31merror[0m] [0m                                                                ^[0m
+[0m[[31merror[0m] [0m/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala:186: type mismatch;[0m
+[0m[[31merror[0m] [0m found   : Unit[0m
+[0m[[31merror[0m] [0m required: ((String, jsy.lab4.ast.Typ), jsy.lab4.ast.Expr) => ?[0m
+[0m[[31merror[0m] [0m              case (string, ty) => if (ty != typ(args)) err(typ(args), e1)[0m
+[0m[[31merror[0m] [0m                                   ^[0m
+[0m[[31merror[0m] [0mfour errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(lab4/compile:[31mcompile[0m) Compilation failed[0m

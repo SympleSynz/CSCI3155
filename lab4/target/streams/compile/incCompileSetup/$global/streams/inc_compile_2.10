@@ -1,0 +1,352 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.3
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> false
+products:
+88 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$2.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$3.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$compressFold$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$hasFunctionTyp$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$2.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$step$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$sum$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$treeFromList$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Empty$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Node$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Node.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Tree.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$2.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$3.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$4.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$5.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$6.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$2.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$3.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$isValue$1.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$And$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$B$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$B.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Binary$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Binary.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Bop.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Call$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Call.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$ConstDecl$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$ConstDecl.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Div$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$DynamicTypeError$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$DynamicTypeError.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Eq$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Expr.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Function$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Function.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Ge$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$GetField$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$GetField.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Gt$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$If$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$If.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Le$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Lt$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Minus$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$N$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$N.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Ne$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Neg$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Not$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Obj$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Obj.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Or$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Plus$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Print$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Print.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$S$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$S.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Seq$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StaticTypeError$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StaticTypeError.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StuckError$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StuckError.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TBool$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TFunction$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TFunction.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TNumber$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TObj$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TObj.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TString$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TUndefined$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Times$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Typ.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Unary$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Unary.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Undefined$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Uop.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Var$.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Var.class
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast.class
+binary dependencies:
+6 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/liblab4.jar
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/liblab4.jar
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> /usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+1 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> /home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+88 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$2
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$3
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$compressFold$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$hasFunctionTyp$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$processFile$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$processFile$2
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$step$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$sum$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$$anonfun$treeFromList$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$Empty$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$Node
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$Node$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> Lab4$Tree
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$2
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$3
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$4
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$5
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$6
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$freeVars$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$freeVars$2
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$freeVars$3
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$$anonfun$isValue$1
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$And$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$B
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$B$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Binary
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Binary$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Bop
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Call
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Call$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$ConstDecl
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$ConstDecl$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Div$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$DynamicTypeError
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$DynamicTypeError$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Eq$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Expr
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Function
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Function$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Ge$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$GetField
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$GetField$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Gt$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$If
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$If$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Le$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Lt$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Minus$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$N
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$N$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Ne$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Neg$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Not$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Obj
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Obj$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Or$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Plus$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Print
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Print$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$S
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$S$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Seq$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$StaticTypeError
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$StaticTypeError$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$StuckError
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$StuckError$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TBool$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TFunction
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TFunction$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TNumber$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TObj
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TObj$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TString$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$TUndefined$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Times$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Typ
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Unary
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Unary$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Undefined$
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Uop
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Var
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> jsy.lab4.ast$Var$
+used names:
+0 items
+product stamps:
+88 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$2.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$3.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$compressFold$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$hasFunctionTyp$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$processFile$2.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$step$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$sum$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$$anonfun$treeFromList$1.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Empty$.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Node$.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Node.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4$Tree.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/Lab4.class -> lastModified(1415576420000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$1.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$2.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$3.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$4.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$5.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$6.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$1.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$2.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$freeVars$3.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$$anonfun$isValue$1.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$.class -> lastModified(1414510972000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$And$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$B$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$B.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Binary$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Binary.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Bop.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Call$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Call.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$ConstDecl$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$ConstDecl.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Div$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$DynamicTypeError$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$DynamicTypeError.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Eq$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Expr.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Function$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Function.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Ge$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$GetField$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$GetField.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Gt$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$If$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$If.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Le$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Lt$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Minus$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$N$.class -> lastModified(1414510973000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$N.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Ne$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Neg$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Not$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Obj$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Obj.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Or$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Plus$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Print$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Print.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$S$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$S.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Seq$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StaticTypeError$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StaticTypeError.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StuckError$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$StuckError.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TBool$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TFunction$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TFunction.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TNumber$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TObj$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TObj.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TString$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$TUndefined$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Times$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Typ.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Unary$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Unary.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Undefined$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Uop.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Var$.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast$Var.class -> lastModified(1414510974000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/target/scala-2.10/classes/jsy/lab4/ast.class -> lastModified(1414510972000)
+source stamps:
+2 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> hash(af439952d081cedfb07d5019802a35780fb83dbb)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> hash(4b893a43bea91ad29a3bb119e3f5fb58993e8283)
+binary stamps:
+3 items
+/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar -> lastModified(1380275091000)
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/liblab4.jar -> lastModified(1408678099000)
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> lastModified(1413953258000)
+class names:
+3 items
+/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar -> scala.Product
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/lib/liblab4.jar -> jsy.util.JsyApplication
+/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar -> java.io.Serializable
+internal apis:
+2 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDUaSUYAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAETGFiNHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ALgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AFUwACWluaGVyaXRlZHEAfgAVTAAHcGFyZW50c3EAfgAVeHEAfgA1c3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVxAH4AEAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AFnEAfgAgdXEAfgAhAAAAAHNxAH4AIwB0AARtYWludXEAfgAmAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4AHEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ADR0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA0c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBTdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+ABxMAAN0cGVxAH4AP3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AKXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AR1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4ANHNxAH4ARnQABUFycmF5cQB+AEx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4ARnQABlN0cmluZ3NxAH4ASnNxAH4ATXVxAH4AUAAAAANzcQB+AFJ0AARqYXZhc3EAfgBSdAAEbGFuZ3EAfgBXcHNxAH4ALgF1cQB+AGsAAAADc3EAfgBGdAAOSnN5QXBwbGljYXRpb25zcQB+AEpzcQB+AE11cQB+AFAAAAADc3EAfgBSdAADanN5c3EAfgBSdAAEdXRpbHEAfgBXc3EAfgBGdAAGT2JqZWN0cQB+AG9zcQB+AEZ0AANBbnlxAH4ATHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAUmW7fGFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK9DmVLQgc7fsH1QGYAqNXgPuD27
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD8QCGnAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAManN5LmxhYjQuYXN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAuAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADVzcQB+AC4BdXEAfgAQAAAAAHBzcQB+AC4BdXEAfgAQAAAAAHBzcQB+AC4BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA0dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA0c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgBNdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBOc3EAfgBBdAADQW55c3EAfgBFc3EAfgBIdXEAfgBLAAAAAnNxAH4ATXQABXNjYWxhcQB+AFRwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQACGpzeS5sYWI0c3EAfgBedAADanN5c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFJV2qyrXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4AHEwAD3NvdXJjZURpcmVjdG9yeXEAfgAceHB0AEgvaG9tZS91c2VyL0Ryb3Bib3gvQ1NDSTMxNTUvSG9tZXdvcmsvbGFiNC9sYWI0L3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRLiTpDvqka0po7sRnj9ftYmT6Cgw==
+external apis:
+0 items
+source infos:
+2 items
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/Lab4.scala -> 
+AAAAAAAAAAA=
+/home/user/Dropbox/CSCI3155/Homework/lab4/lab4/src/main/scala/jsy/lab4/ast.scala -> 
+AAAAAAAAAAA=
+compilations:
+5 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSVdqsq11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSZaiYQ11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSZbLtdh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSZbakEp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABSZbt8YV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASC9ob21lL3VzZXIvRHJvcGJveC9DU0NJMzE1NS9Ib21ld29yay9sYWI0L2xhYjQvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
