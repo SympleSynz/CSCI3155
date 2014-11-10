@@ -1,0 +1,17 @@
+[0m[[0minfo[0m] [0mRunning Lab2Grader [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/grader/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/lib/liblab2.jar[0m
+[0m[[0mdebug[0m] [0m	/home/user/Dropbox/CSCI3155/Homework/lab2/lab2/lib/scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/user/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	/home/user/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/user/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.0.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread ScalaTest-dispatcher to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread ScalaTest-dispatcher exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
