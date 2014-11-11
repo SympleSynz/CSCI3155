@@ -111,12 +111,14 @@ object Lab4 extends jsy.util.JsyApplication {
     case _ => false
   }
   
-  def typeInfer(env: Map[String,Typ], e: Expr): Typ = {
+  def typeInfer(env: Map[String,Typ], e: Expr): Typ = 
+  {
     // Some shortcuts for convenience
     def typ(e1: Expr) = typeInfer(env, e1)
     def err[T](tgot: Typ, e1: Expr): T = throw StaticTypeError(tgot, e1, e)
 
-    e match {
+    e match 
+    {
       case Print(e1) => typ(e1); TUndefined
       case N(_) => TNumber
       case B(_) => TBool
@@ -124,59 +126,98 @@ object Lab4 extends jsy.util.JsyApplication {
       case S(_) => TString
       case Var(x) => env(x)
       case ConstDecl(x, e1, e2) => typeInfer(env + (x -> typ(e1)), e2)
-      case Unary(Neg, e1) => typ(e1) match {
-        case TNumber => TNumber
-        case tgot => err(tgot, e1)
+      case Unary(Neg, e1) => (typ(e1)) match 
+      {
+        case (TNumber) => TNumber
+        case (tgot) => err(tgot, e1)
       }
 
       case Unary(Not, e1) => if (typ(e1) != TBool) err(typ(e1),e1) else TBool
-      case Binary(Plus, e1, e2) => (typ(e1),typ(e2)) match {
-        (TString,TString) => TString
-        (TNumber,TNumber) => TNumber
-        (_,_) => typ(e1) match {
-          (TBool, _) => err(typ(e1),e1)
-          (TUndefined, _) => err(typ(e1),e1)
-          (TFunction, _) => err(typ(e1),e1)
-          (TObj, _) => err(typ(e1),e1)
-          (_,_) => err(typ(e2),e2)
-        }
+      case Binary(Plus, e1, e2) => typ(e1) match 
+      {
+        case (TNumber) => if (TNumber == typ(e2)) TNumber else err(typ(e2),e2)
+        case (TString) => if (TString == typ(e2)) TString else err(typ(e2),e2)
+        case (_) => err(typ(e1),e1)
       }
-      case Binary(Minus|Times|Div, e1, e2) => typ(e1) match {
+     
+      case Binary(Minus|Times|Div, e1, e2) => (typ(e1)) match 
+      {
         case (TNumber) => if (TNumber == typ(e2)) TNumber else err(typ(e2),e2)
         case (_) => err(typ(e1),e2)
       }
-      case Binary(Eq|Ne, e1, e2) =>
-        throw new UnsupportedOperationException
-      case Binary(Lt|Le|Gt|Ge, e1, e2) =>
-        throw new UnsupportedOperationException
-      case Binary(And|Or, e1, e2) =>
-        throw new UnsupportedOperationException
-      case Binary(Seq, e1, e2) =>
-        throw new UnsupportedOperationException
-      case If(e1, e2, e3) =>
-        throw new UnsupportedOperationException
+      case Binary(Eq|Ne, e1, e2) => (typ(e1)) match 
+      {
+        case (TFunction(_,_)) => err(typ(e1), e1)
+        case (TUndefined) => err(typ(e1),e1)
+        case (TObj(_)) => err(typ(e1),e1)
+        case (_) => (typ(e2)) match 
+        {
+          case (TFunction(_,_)) => err(typ(e2), e2)
+          case (TUndefined) => err(typ(e2),e2)
+          case (TObj(_)) => err(typ(e2),e2)
+          case (_) => TBool
+        }
+      }
+      case Binary(Lt|Le|Gt|Ge, e1, e2) => (typ(e1)) match 
+      {
+        case (TNumber) => (typ(e2)) match 
+        {
+          case (TNumber) => TBool
+          case (TFunction(_,_)) => err(typ(e2), e2)
+          case (TUndefined) => err(typ(e2),e2)
+          case (TObj(_)) => err(typ(e2),e2)
+          case (TBool) => err(typ(e2), e2)
+          case (TString) => err(typ(e2), e2)
+        }
+        case (TString) => (typ(e2)) match 
+        {
+          case (TString) => TBool
+          case (TFunction(_,_)) => err(typ(e2), e2)
+          case (TUndefined) => err(typ(e2),e2)
+          case (TObj(_)) => err(typ(e2),e2)
+          case (TBool) => err(typ(e2), e2)
+          case (TNumber) => err(typ(e2), e2)
+        }
+        case (_) => err(typ(e1),e1)
+      }
+
+      case Binary(And|Or, e1, e2) => typ(e1) match 
+      {
+        case (TBool) => typ(e2) match 
+        {
+          case (TBool) => TBool
+          case (TFunction(_,_)) => err(typ(e2), e2)
+          case (TUndefined) => err(typ(e2),e2)
+          case (TObj(_)) => err(typ(e2),e2)
+          case (TNumber) => err(typ(e2), e2)
+          case (TString) => err(typ(e2), e2)
+        }
+        case (_) => err(typ(e1),e1)
+      }
+      case Binary(Seq, e1, e2) => typ(e2)
+      case If(e1, e2, e3) => e1 match 
+      {
+        case (B(x)) => if (x == true) typ(e2) else typ(e3)
+        case (_) => err(typ(e1),e1)
+      }
       
-
-
-
-      case Function(p, params, tann, e1) => {
+      case Function(p, params, tann, e1) => 
+      {
         // Bind to env1 an environment that extends env with an appropriate binding if
         // the function is potentially recursive.
-        val env1 = (p, tann) match {
+        val env1 = (p, tann) match 
+        {
           case (Some(f), Some(tret)) =>
             val tprime = TFunction(params, tret)
             env + (f -> tprime)
           case (None, _) => env
           case _ => err(TUndefined, e1)
         }
-        
-
-
-
         // Bind to env2 an environment that extends env1 with bindings for params.
         val env2 = throw new UnsupportedOperationException
         // Match on whether the return type is specified.
-        tann match {
+        tann match 
+        {
           case None => throw new UnsupportedOperationException
           case Some(tret) => throw new UnsupportedOperationException
         }
@@ -187,7 +228,8 @@ object Lab4 extends jsy.util.JsyApplication {
         {
           (params, args).zipped.foreach 
           { //throw new UnsupportedOperationException
-            (paramX, argsY) => (paramX, argsY) match {
+            (paramX, argsY) => (paramX, argsY) match 
+            {
               case ((str, tp), ta) => if (tp != typ(ta)) err(tp, ta)
             }
           };
@@ -195,9 +237,6 @@ object Lab4 extends jsy.util.JsyApplication {
         }
         case tgot => err(tgot, e1)
       }
-  
-
-
       case Obj(fields) =>
         throw new UnsupportedOperationException
       case GetField(e1, f) =>
