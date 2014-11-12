@@ -163,20 +163,12 @@ object Lab4 extends jsy.util.JsyApplication {
         case (TNumber) => (typ(e2)) match 
         {
           case (TNumber) => TBool
-          case (TFunction(_,_)) => err(typ(e2), e2)
-          case (TUndefined) => err(typ(e2),e2)
-          case (TObj(_)) => err(typ(e2),e2)
-          case (TBool) => err(typ(e2), e2)
-          case (TString) => err(typ(e2), e2)
+          case (_) => err(typ(e2), e2)
         }
         case (TString) => (typ(e2)) match 
         {
           case (TString) => TBool
-          case (TFunction(_,_)) => err(typ(e2), e2)
-          case (TUndefined) => err(typ(e2),e2)
-          case (TObj(_)) => err(typ(e2),e2)
-          case (TBool) => err(typ(e2), e2)
-          case (TNumber) => err(typ(e2), e2)
+          case (_) => err(typ(e2), e2)
         }
         case (_) => err(typ(e1),e1)
       }
@@ -186,18 +178,14 @@ object Lab4 extends jsy.util.JsyApplication {
         case (TBool) => typ(e2) match 
         {
           case (TBool) => TBool
-          case (TFunction(_,_)) => err(typ(e2), e2)
-          case (TUndefined) => err(typ(e2),e2)
-          case (TObj(_)) => err(typ(e2),e2)
-          case (TNumber) => err(typ(e2), e2)
-          case (TString) => err(typ(e2), e2)
+          case (_) => err(typ(e2), e2)
         }
         case (_) => err(typ(e1),e1)
       }
-      case Binary(Seq, e1, e2) => typ(e2)
+      case Binary(Seq, e1, e2) => typ(e1);typ(e2)
       case If(e1, e2, e3) => e1 match 
       {
-        case (B(x)) => if (x == true) typ(e2) else typ(e3)
+        case (B(x)) => if (typ(e2) == typ(e3)) typ(e2) else err(typ(e3),e3)
         case (_) => err(typ(e1),e1)
       }
       
@@ -214,12 +202,13 @@ object Lab4 extends jsy.util.JsyApplication {
           case _ => err(TUndefined, e1)
         }
         // Bind to env2 an environment that extends env1 with bindings for params.
-        val env2 = throw new UnsupportedOperationException
+        val env2 = env1 ++ params //That we are binding every tuple in params to the env1 and setting to env2
         // Match on whether the return type is specified.
-        tann match 
+        (tann,typeInfer(env2,e1)) match 
         {
-          case None => throw new UnsupportedOperationException
-          case Some(tret) => throw new UnsupportedOperationException
+          case (None, bodyType) => TFunction(params,bodyType)
+          case (Some(tret), bodyType) => if (tret == bodyType) TFunction(params,bodyType) else err(bodyType, e1)
+          case _ => err(TUndefined, e1)
         }
       }
       case Call(e1, args) => typ(e1) match
@@ -237,10 +226,12 @@ object Lab4 extends jsy.util.JsyApplication {
         }
         case tgot => err(tgot, e1)
       }
-      case Obj(fields) =>
-        throw new UnsupportedOperationException
-      case GetField(e1, f) =>
-        throw new UnsupportedOperationException
+      case Obj(fields) => TObj(fields.map{case (a,b) => (a,typ(b))})
+      case GetField(e1, f) => typ(e1) match 
+      {
+        case TObj(fields) => if (fields.contains(f)) fields(f) else err(TObj(fields), e1)
+        case _ => err(typ(e1),e1)
+      }
     }
   }
   
