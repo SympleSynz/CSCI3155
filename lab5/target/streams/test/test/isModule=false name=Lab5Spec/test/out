@@ -1,0 +1,21 @@
+[0m[[0minfo[0m] [0m[32mLab5Spec:[0m[0m
+[0m[[0minfo[0m] [0m[32mmapFirstDoWith[0m[0m
+[0m[[0minfo[0m] [0m[32m- should map the first element where f returns Some[0m[0m
+[0m[[0minfo[0m] [0m[32mDoNeg[0m[0m
+[0m[[0minfo[0m] [0m[32m- should negate values[0m[0m
+[0m[[0minfo[0m] [0m[32mDoSeq[0m[0m
+[0m[[0minfo[0m] [0m[32m- should produce second element in sequence[0m[0m
+[0m[[0minfo[0m] [0m[32mDoAssignVar[0m[0m
+[0m[[0minfo[0m] [0m[31m- should assign variable to value *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Lab5$.step(Lab5.scala:420)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Lab5Spec$$anonfun$4.apply$mcV$sp(Lab5Spec.scala:30)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Lab5Spec$$anonfun$4.apply(Lab5Spec.scala:28)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Lab5Spec$$anonfun$4.apply(Lab5Spec.scala:28)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m

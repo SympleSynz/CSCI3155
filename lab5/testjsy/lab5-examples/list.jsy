@@ -1,0 +1,102 @@
+/*
+ * Any
+ *
+ * A library to represent a union of values (unchecked tagging, C-style).  Ignore functions.  Note that
+ * there's no accessor for undefined.
+ */
+interface Any { tag: () => string; n: () => number; s: () => string; o: () => {} }
+const Any = (function () {
+  return {
+    n: function (n: number): Any {
+      const node = { tag: "number", n: n, b: false, s: "", o: <{}>null }
+      return <Any>{ tag: () => node.tag, n: () => node.n, b: () => node.b, s: () => node.s, o: () => node.o }
+    },
+    b: function (b: bool): Any {
+      const node = { tag: "bool", n: 0, b: b, s: "", o: <{}>null }
+      return <Any>{ tag: () => node.tag, n: () => node.n, b: () => node.b, s: () => node.s, o: () => node.o }
+    },
+    s: function (s: string): Any {
+      const node = { tag: "string", n: 0, b: false, s: s, o: <{}>null }
+      return <Any>{ tag: () => node.tag, n: () => node.n, b: () => node.b, s: () => node.s, o: () => node.o }
+    },
+    o: function (o: {}): Any {
+      const node = { tag: "object", n: 0, b: false, s: "", o: o }
+      return <Any>{ tag: () => node.tag, n: () => node.n, b: () => node.b, s: () => node.s, o: () => node.o }
+    },
+    undef: function (): Any {
+      const node = { tag: "undefined", n: 0, b: false, s: "", o: <{}>null }
+      return <Any>{ tag: () => node.tag, n: () => node.n, b: () => node.b, s: () => node.s, o: () => node.o }
+    },
+    U: (a: Any) => <{ tag: () => string; n: () => number; s: () => string; o: () => {} }>a
+  }
+})();
+
+/*** Example Usage ***/
+(function () {
+  const a = Any.n(3)     // inject a number
+  const n = Any.U(a).n() // pull the number back out (no tag checking)
+  console.log(n)
+  return undefined
+})();
+
+/*
+ * Lists
+ *
+ * The following is a list library with higher-order iterators.  The underlying implementation is a
+ * linked list as in C.
+ */
+interface Listy { hd: () => Any; tl: () => Listy }
+const Listy = (function () {
+  interface Node { h: Any; t: Listy }
+
+  const ncons = function (head: Any, tail: Listy) { return <Node>{ h: head, t: tail } }
+  const nhd = function (n: Node) { return (<{ h: Any }>n).h; }
+  const ntl = function (n: Node) { return (<{ t: Listy }>n).t; }
+  const listy = function (n: Node) { return <Listy>{ hd: () => nhd(n), tl: () => ntl(n) } }
+  
+  const nil = <Listy>null
+  const cons = function (head: Any, tail: Listy): Listy { return listy(ncons(head, tail)) }
+  const U = (l: Listy) => <{ hd: () => Any; tl: () => Listy }>l
+  
+  const foldLeft = function foldLeft(acc: Any, f: (acc: Any, d: Any) => Any): (l: Listy) => Any {
+    return function (l: Listy) {
+      return l === nil ? acc : foldLeft(f(acc, U(l).hd()), f)(U(l).tl())
+    }
+  }
+  const foldRight = function foldRight(f: (d: Any, acc: Any) => Any, acc: Any): (l: Listy) => Any {
+    return function (l: Listy) {
+      return l === nil ? acc : f(U(l).hd(), foldRight(f, acc)(U(l).tl()))
+    }
+  }
+  const map = function (f: (d: Any) => Any) {
+    return function (l: Listy) {
+      const a = foldRight((d: Any, acc: Any) => Any.o(<{}>cons(f(d), <Listy>Any.U(acc).o())), Any.o(<{}>nil))(l)
+      return <Listy>Any.U(a).o()
+    }
+  }
+  const iter = function (f: (d: Any) => Undefined) {
+   return function (l: Listy) {
+     foldLeft(Any.undef(), (acc: Any, d: Any) => (f(d), Any.undef()))(l);
+     return undefined
+   }
+  }
+  return {
+    U: U,
+    nil: nil,
+    cons: cons,
+    foldLeft: foldLeft,
+    foldRight: foldRight,
+    map: map,
+    iter: iter
+  }
+})();
+
+/*** Example Usage ***/
+(function () {
+  const l1 = Listy.cons(Any.n(2), Listy.cons(Any.n(1), Listy.nil))
+  const l2 = Listy.map((d: Any) => Any.n(Any.U(d).n() + 1))(l1)
+  const prn = (l: Listy) => Listy.iter((d: Any) => console.log(Any.U(d).n()))(l);
+  prn(l1)
+  prn(l2)
+  return undefined
+})();

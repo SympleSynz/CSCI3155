@@ -1,0 +1,9 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(Lab5Spec, org.scalatest.tools.Framework$$anon$1@2f87156c, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 4 seconds, 334 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[31merror[0m] [0mFailed tests:[0m
+[0m[[31merror[0m] [0m	Lab5Spec[0m
+[0m[[31merror[0m] [0m(lab5/test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
