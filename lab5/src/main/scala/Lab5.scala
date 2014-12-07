@@ -349,22 +349,29 @@ object Lab5 extends jsy.util.JsyApplication {
       case Decl(mut, y, e1, e2) => Decl(mut, y, subst(e1), if (x == y) e2 else subst(e2))
       case Function(p, paramse, retty, e1) => p match 
       {
+        //Checking the name of the function and if its recursive
         case Some(a) => paramse match 
-        {
+        {//if it is, then we need to check left and right to see if the
+          //function name is in the parameters and the arguments passed in
           case Left(params) => val e1p = 
             if (params.exists((t1:(String,Typ))=> t1._1 != x) && a != x) subst(e1)
             else e1
             Function(p, Left(params), retty, e1p)
+            //same situation on the right, checking to see if the function name
+            //was passed in as a argument for the recursive part
           case Right((mode, str, ty)) => 
             if (str != x && a != x) Function(p, Right((mode, str, ty)), retty, subst(e1))
             else Function(p, Right((mode, str, ty)), retty, e1)
         }
+        //If not, then we need to see if the function name is already in the params
         case None => paramse match 
-        {
+        {//if it is, we sub on e1, but if not, then return the function
           case Left(params) => val e1p =
             if (params.exists((t1:(String,Typ))=> t1._1 != x)) subst(e1)
             else e1
             Function(p, Left(params), retty, e1p)
+            //On the right side, we essentially do the same thing since we only have
+            //a single parameter
           case Right((mode, str, ty)) =>
             if (str != x) Function(p, Right((mode, str, ty)), retty, subst(e1))
             else Function(p, Right((mode, str, ty)), retty, e1)
