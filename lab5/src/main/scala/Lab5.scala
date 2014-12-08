@@ -347,22 +347,22 @@ object Lab5 extends jsy.util.JsyApplication {
       case If(e1, e2, e3) => If(subst(e1), subst(e2), subst(e3))
       case Var(y) => if (x == y) esub else e
       case Decl(mut, y, e1, e2) => Decl(mut, y, subst(e1), if (x == y) e2 else subst(e2))
-      case Function(p, paramse, retty, e1) => p match 
+      case Function(p, paramse, retty, e1) => paramse match 
       {
         //Checking the name of the function and if its recursive
-        case Some(a) => paramse match 
-        {//if it is, then we need to check left and right to see if the
+        //case Some(a) => paramse match 
+        //{//if it is, then we need to check left and right to see if the
           //function name is in the parameters and the arguments passed in
           case Left(params) => val e1p = 
-            if (params.exists((t1:(String,Typ))=> t1._1 != x) && a != x) subst(e1)
+            if (params.exists((t1:(String,Typ))=> t1._1 != x) && p != Some(x)) subst(e1)
             else e1
             Function(p, Left(params), retty, e1p)
             //same situation on the right, checking to see if the function name
             //was passed in as a argument for the recursive part
           case Right((mode, str, ty)) => 
-            if (str != x && a != x) Function(p, Right((mode, str, ty)), retty, subst(e1))
+            if (str != x && p != Some(x)) Function(p, Right((mode, str, ty)), retty, subst(e1))
             else Function(p, Right((mode, str, ty)), retty, e1)
-        }
+        /*}
         //If not, then we need to see if the function name is already in the params
         case None => paramse match 
         {//if it is, we sub on e1, but if not, then return the function
@@ -375,7 +375,7 @@ object Lab5 extends jsy.util.JsyApplication {
           case Right((mode, str, ty)) =>
             if (str != x) Function(p, Right((mode, str, ty)), retty, subst(e1))
             else Function(p, Right((mode, str, ty)), retty, e1)
-        }
+        }*/
       }
       
       case Call(e1, args) => Call(subst(e1), args map subst)
@@ -544,9 +544,9 @@ object Lab5 extends jsy.util.JsyApplication {
       case Decl(mut, x, e1, e2) =>
         for (e1p <- step(e1)) yield Decl(mut, x, e1p, e2)
       //SearchAssign2
-      case Assign(e1,e2) if (isLValue(e1) && !isLValue(e2)) => for(e2p <- step(e2)) yield Assign(e1, e2p)
+      case Assign(v1,e2) if (isLValue(v1) && !isLValue(e2)) => for(e2p <- step(e2)) yield Assign(v1, e2p)
       //SearchAssign1
-      case Assign(v1, e2) => for (e1p <- step(v1)) yield Assign(e1p, e2)
+      case Assign(e1, e2) => for (e1p <- step(e1)) yield Assign(e1p, e2)
       //SearchCall
       case Call(e1, args) => 
         for (e1p <- step(e1)) yield Call(e1p, args)

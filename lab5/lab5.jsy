@@ -1,0 +1,1 @@
+const galaxy = {x: 4, y: 3, z: 2, hitchHiker: function(name baker: number) {var answerToLifeTheUniverseAndEveryting = baker*2; return answerToLifeTheUniverseAndEveryting+3}, guide: function(var toThe: number) {toThe = toThe + 2; return toThe}}; galaxy.hitchHiker(galaxy.guide(galaxy.x + galaxy.y)) * galaxy.z
