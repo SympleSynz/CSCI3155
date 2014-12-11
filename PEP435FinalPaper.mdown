@@ -1,0 +1,173 @@
+#PEP 435: Adding Enum Type to Python 3.4<br>
+*A look at the proposal and the motivation behind the community*
+
+CSCI 3155 - Programming Languages<br>
+University of Colorado, Boulder
+
+by<br>
+Erik Eakins<br>
+Daniel Matthews<br>
+Calvin Hicks
+
+##Abstract
+PEP 354 failed to add Enums as a type for Python 2.6 due to over complication and other issues.  The idea was revitalized and proposed in 2013 as PEP 435 for Python 3.4.  Three months of discussion led to the acceptance and implementation of the proposal.
+
+Enumerations allow for friendly string representations of unique, constant values.  Enum types are implemented within classes.  An IntEnum is a subclass of integer which extends the functionality of enums.  
+
+The Community’s expedient acceptance of the PEP leads to the belief of a backing of Python 3.4 over 2.6 as well as the fact that enum types help with code readability suggesting a shift for code sharing, code review and self explaining code practices.
+
+
+##Introduction
+Program languages have a multitude of functionalities giving developers a diverse set of tools to write code and develop software.  Low level programing languages give developers greater control over specific aspects of the computer system while high level programing languages extend functionality allowing for developers to accomplish more with less code.  For a simple example, C++ allows for an unsigned integer to be a size of 232  and any number larger causes an overflow.  In contrast, Python dynamically allocates memory for integers allowing for the storage of integers greater than 232.
+
+Python PEPs are Python Enhancement Proposals for formal submissions for a change to the Python language.  Looking at **PEP 435: adding an Enum type to the Python standard library** and **PEP 354: adding of Enum type: Rejected**, we can analyze the community of Python using developers in how Python is being used and the possible direction of Python.  
+
+##Method
+The community of developers determine what functionalities get added to Python, if they are part of the mailing list *(Mail.python.org)*.  Developers will post ideas, on the mailing list website, for discussion to include a new functionality, extend a current functionality or remove a functionality.  If support by the community is strong enough for an idea, the suggestion is formally submitted as a PEP and discussed at an upcoming PyCon.
+
+The idea of adding an enum type to Python was first presented in Python PEP 354, which was rejected in 2005. The PEP initially generated widespread interest, as there were already ways to use enumerations without an enum type. One could use cookbook recipes, and PyPI packages to meet these needs. There are several rationales for why this PEP was rejected, starting with enumerations being implemented all in one class. Some implementations have enumerations and its values all as attributes of a single object or class. The PEP contains a design where the enumeration is like a container, and its values are comparables. Placing all the properties of an enumeration in a single class, complicates the design with no apparent benefit. A proposed alternative was creating a metaclass for creating enumeration classes. The problem was stated as follows: 
+
+
+>One motivation for having a class (rather than an instance) for each enumeration is to allow subclasses of enumerations, extending and altering an existing enumeration. A class, though, implies that instances of that class will be created; it is difficult to imagine what it means to have separate instances of a "days of the week" class, where each instance contains all days. This usually leads to having each class follow the Singleton pattern, further complicating the design *(Finney)*.
+
+
+Another reason for rejection, were values related to other types. Some designs express a strong relationship to some other value, such as a particular integer or string, for each enumerated value. The problem was explained as follows:
+
+
+>This results in using such values in contexts where the enumeration has no meaning, and unnecessarily complicates the design. The enumerated values specified in this PEP export the values used to create them, and can be compared for equality with any other value, but sequence comparison with values outside the enumeration is explicitly not implemented *(Finney)*.
+
+
+PEP 435 was created 23 February 2013 to revisit the idea of adding the Enum type functionality.  Unlike the previous version, PEP 354, 435 is a proposal for Python 3.4 instead of Python 2.6.  Even though PEP 354 was rejected in 2005, the developers revisited the discussion on the Python-ideas mailing list.  After many ideas and discussions through the mailing list, adding flufl.enum to the standard library was proposed.  Everything was brought forward at the PyCon 2013 Language Summit and it appeared that developers wanted enum as a subclass of int which would allow for the replacement “of many integer constants in the standard library by enums with friendly string representations, without ceding backwards compatibility” *(Warsaw)*.  Some developers proposed having a special case of Enum, which would be an IntEnum.  What made this different from the standard Enum type is stated in the PEP 435 on the python.org/dev website:
+
+>The key dividing issue between Enum and IntEnum is whether comparing to integers is semantically meaningful. For most uses of enumerations, it's a feature to reject comparison to integers; enums that compare to integers lead, through transitivity, to comparisons between enums of unrelated types, which isn't desirable in most cases. For some uses, however, greater interoperatiliby with integers is desired. For instance, this is the case for replacing existing standard library constants (such as socket.AF_INET ) with enumerations *(Warsaw)*.
+
+
+Some of the main issues for discussions was the concept of subclassing enum types.  The main example used on the discussion forum was *(van Rossum, Furman)*:
+```
+	>>> class Color(Enum):
+			red = 1
+			green = 2
+			blue = 3
+
+
+	>>> class MoreColor(Color):
+			cyan = 4
+			magenta = 5
+			yellow = 6
+```
+The idea was that for using **type()** and **isinstance()** on *MoreColor*, would return confusing results since MoreColor and Color would be considered distinct objects but also the same type.  Ultimately, subclassing enums was disallowed except in the case of an empty enum *(van Rossum, Furman)*.
+
+##Research
+Enumeration: An enumeration is a collection of items, that is a complete ordered listing of all the items in that collection. The term is commonly used in Computer Science, to refer to a listing of all elements in a set *(wikipedia)*.
+
+What that definition means in terms of PEP 435 is that an “enumeration is a set of symbolic names bound to unique, constant values. Within an enumeration, the values can be compared by identity, and the enumeration itself can be iterated over” *(Warsaw)*.
+
+The motivation for creating an enumeration, enum type, was that properties of an enumeration are useful for defining an immutable, related set of constant values that have a defined sequence, but no inherent semantic meaning. Enumeration ensures that such values are distinct from any others, and that operations without meaning are not defined for these values (Color.red * 2).
+
+*Following code was pulled from the PEP 435 public domain (Warsaw)*.
+Simple code example:
+```
+	>>> from enum import Enum
+	>>> class Color(Enum):
+			red = 1
+			green = 2
+			yellow = 3
+```
+Here, Color is an enum, and Color.red, Color.green, Color.blue, Color.yellow are enum members.
+
+The type of an enumeration member is the enumeration it belongs to:
+```
+	>>> type(Color.red)
+	...	Enum ‘Color’
+	
+	>>> isinstance(Color.red , Color)
+	... True
+```
+Enumerations support iteration in definition order:
+```
+	>>> for color in Color:
+			print(color)	
+	... Color.red
+	... Color.green
+	... Color.yellow
+```
+Enumerations are hashables, so they can be used in dictionaries or sets:
+```
+	>>> stoplight {}
+	>>> stoplight[Color.red] = ‘stop’
+	>>> stoplight[Color.green] = ‘go’
+	>>> stoplight[Color.yellow] = ‘slow down’
+	>>> stoplight
+	... {<Color.red:1>: ‘stop’, <Color.green:2>: ‘go’, <Color.yellow:3>: ‘slow down’}
+```
+Enumerations allow for aliasing enum members:
+```
+	>>> class Color(Enum):
+	   		white = 2
+	    	blue = 1
+	    	green = 3
+	    	eggShellWhite = 2
+
+	>>> Color.white
+	... Color.white: 2
+	
+	>>> Color.eggShellWhite
+	... Color.white: 2
+	
+	>>> Color(2)
+	... Color.white: 2
+```
+When declaring values to enum members, if a value is reused, all other enum members will be aliases of the first.  In addition, accessing enums can be done by name or by the position in which the members were declared in the class *(van Rossum, Bendersky)*.
+Enums can be compared by their identity, but they are not integers.  An IntEnum is an enum type that is specifically a subclass for integers, allowing for comparisons between IntEnums and their values.  But enums and IntEnums cannot be compared.
+```
+	>>> class Shape(IntEnum):
+	    	circle = 1
+	    	square = 2
+
+	>>> class Request(IntEnum):
+	    	post = 1
+	    	get = 2
+
+	>>> Shape == 1
+	... False
+
+	>>> Shape.circle == 1
+	... True
+
+	>>> Shape.circle == Request.post
+	... True
+
+	>>> class Color(Enum):
+	    	red = 1
+	    	green = 2
+
+	>>> Shape.circle == Color.red
+	... False
+```
+##Analysis
+The revival of PEP 435 dealt with many of the issues found in PEP 354, making a much more simple and straightforward functionality for Python 3.4 in the use of enum types.  Some of the fixes suggested came from StackOverflow posts on enumerations in Java *(van Rossum, Furman)*.  Even though the original proposal failed in 2005, the community’s overall desire for an enumeration type led to a second proposal in 2013, with the proposal passing in three months.
+
+A push for better self explaining code is evident when looking at the community of python developers as well as the benefits of the implementation of an enum type.  Enumeration types allow for names to represent unique, constant integers.  How this helps with self explaining code is when in normal circumstances, a function returns *1* for success and *0* for failure.  With the use of enumerations, *1* and *0* can be values for the enum types, *EXIT_SUCCESS* and *EXIT_FAILURE*.  Anybody that looks at the code will be able to read precisely what is occurring.
+
+This increase in code readability is also important to note.  Overly complicating code, which PEP 354 would have cause, would make peer review very difficult if the enum type had been implemented in Python 2.6.  Having code that is readable by other developers is very important today because it saves money by reducing the number of bugs through code review.  Implementing PEP 435 helps make simpler code as well as higher readability.
+
+In addition, since the original proposal failed for the implementation in Python 2.6 but passed in Python 3.4, it appears that the community of Python developers is pushing for 3.4 over 2.6.  This would explain the fixes to a PEP and attempting to propose it for 3.4 rather than returning to 2.6.  The community is betting on the future of Python being in 3.4.
+
+##Conclusion
+Despite the rejection of the original proposal for enumeration types being part of the standard library, the community’s desire revived the proposal for implementation in the next phase of Python.  The many issues of the first proposal were fixed in the second allowing for an expedient acceptance of the PEP.
+
+Enumerations help create friendly string representations of unique integer constants as well as being iterable, hashable and comparable within their own types.  This allows for higher code readability because of self explaining code through the use of the string representations.  Since PEP 354 failed in 2005 for Python 2.6 and PEP 435 was accepted in 2013 for Python 3.4, the community appears to be backing Python 3.
+
+##References
+"Enumeration." Wikipedia. Wikimedia Foundation, 12 Nov. 2014. Web. 11 Dec. 2014. <http://en.wikipedia.org/wiki/Enumeration>.
+
+Finney, Ben. "Welcome to Python.org." Python.org. Python.org, n.d. Web. 11 Dec. 2014. <https://www.python.org/dev/peps/pep-0354>.
+
+"Mail.python.org Mailing Lists." Mail.python.org Mailing Lists. Python.org, n.d. Web. 11 Dec. 2014. <https://mail.python.org/>.
+
+Van Rossum, Guido, Eli Bendersky, and Ethan Furman. "[Python-Dev] Enum: Subclassing?" [Python-Dev] Enum: Subclassing? Python.org, 2 May 2013. Web. 11 Dec. 2014. <https://mail.python.org/pipermail/python-dev/2013-May/125859.html>.
+
+Van Rossum, Guido, and Ethan Furman. "[Python-Dev] Enumeration Items: `type(EnumClass.item) Is EnumClass` ?" [Python-Dev] Enumeration Items: `type(EnumClass.item) Is EnumClass` ? Python.org, 29 Apr. 2013. Web. 11 Dec. 2014. <http://mail.python.org/pipermail/python-dev/2013-April/125716.html>.
+
+Warsaw, Barry, Eli Bendersky, and Ethan Furman. "Welcome to Python.org."Python.org. Python.org, n.d. Web. 11 Dec. 2014. <https://www.python.org/dev/peps/pep-0435/#id17>.
+
