@@ -1,0 +1,13 @@
+[0m[[0minfo[0m] [0m[32mFunctionCallSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mFunctions[0m[0m
+[0m[[0minfo[0m] [0m[32m- should be considered values[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate a function using big-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle recursive functions using big-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should evaluate a function using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle recursive functions using small-step semantics[0m[0m
+[0m[[0minfo[0m] [0m[32mCall[0m[0m
+[0m[[0minfo[0m] [0m[32m- should handle small and big step differently[0m[0m

@@ -1,0 +1,11 @@
+const repeat = function(s) {
+  return function loop(n) {
+    return n === 0 ? "" : s + loop(n - 1)
+  }
+}
+
+jsy.print('repeat("a")(3)')
+jsy.print(repeat("a")(3))
+
+jsy.print('repeat("xyz")(2)')
+jsy.print(repeat("xyz")(2))

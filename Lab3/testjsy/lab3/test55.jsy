@@ -1,0 +1,2 @@
+jsy.print("Hello" + " " + 'world')
+

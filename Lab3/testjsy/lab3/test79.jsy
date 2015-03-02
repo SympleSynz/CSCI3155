@@ -1,0 +1,6 @@
+false && jsy.print("a");
+true && jsy.print("b");
+false || jsy.print("c");
+true || jsy.print("d");
+jsy.print("e") && jsy.print("f");
+jsy.print("g") || jsy.print("h");

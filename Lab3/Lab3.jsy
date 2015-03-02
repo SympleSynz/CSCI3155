@@ -1,0 +1,11 @@
+const x = 1;
+const george = 5;
+const hilary = 4;
+
+const fun = function (f) {
+    return function bush(george){
+        return function (hilary){
+            return hilary === george ? "lies" : "42"}
+        }
+    };
+fun(5)(george)(hilary);
